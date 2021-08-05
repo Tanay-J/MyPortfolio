@@ -3,6 +3,8 @@
 :root {
 /* #0A2E36; */
 --primary-color:#233D4D;
+--primary-shade-light:#FDE299;
+--primary-shade-dark: #65511C;
 --orange:#FE8534;
 --yellow:#FCCA46;
 --olive:#A1C181;
@@ -59,7 +61,7 @@ hr{
 
 .list-non-bullet{
     list-style: none;
-    
+    margin: 1rem auto;
 }
 
 .list-inline{
@@ -178,6 +180,16 @@ hr{
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
     
+}
+.tag{
+    /* display: block; */
+
+    /* margin-left: 55%; */
+    width: 90px;
+    font-weight: lighter;
+    background-color: var(--primary-shade-light);
+    padding: 0.1rem 0.3rem;
+    border-radius: 10px;
 }
 .projects-bg{
     background-color: var(--olive);
