@@ -30,14 +30,18 @@ hr{
 .container-center{
    max-width: 600px;
    margin: auto;
+   padding: 1.5rem;
 }
 
 .link{
+    /* display: block; */
     text-decoration: none;
     box-sizing: border-box;
     padding: 0.4rem 0.7rem;
     color: var(--primary-color);
-    margin: auto 5px;
+    margin: 0px 10px 10px 0px;
+    font-size: 1rem;
+    justify-self: flex-start;
 }
 
 .link-primary{
@@ -64,8 +68,7 @@ hr{
 
 .list-inline{
     display: inline;
-    padding: 0rem 0.5rem;
-    color: var(--text-light);
+    /* padding: 0rem 0.5rem; */
 }
 
 .list-reversed{
@@ -81,7 +84,7 @@ hr{
 .navigation{
     color: var(--text-light);
     margin: auto;
-    max-height: 200px;
+    /* max-width: 110%; */
 }
 
 .navigation .nav-brand{
@@ -97,8 +100,8 @@ hr{
 .navigation .nav-pills{
     position: absolute;
     text-align: right;
-    right: 10px;
-    top: 10px;
+    right: 5%;
+    top: 1%;
 }
 .navigation .link{
     color: var(--text-dark);
@@ -112,13 +115,14 @@ hr{
 .hero{
     padding: 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% auto;
     margin-bottom: 10%;
+    justify-content: center;
 }
 
 .hero-img{
-    max-width: 450px;
-    padding: 10px;
+    max-width: 80%;
+    padding: 1rem;
     justify-self: center;
 }
 .hero-text{
@@ -130,7 +134,7 @@ hr{
     border-left: 1px solid var(--primary-color);
 }
 .hero-img-section{
-    max-width: 200px;
+    max-width: 60%;
     margin: auto;
     padding: 1.5rem;
 }
@@ -156,10 +160,14 @@ hr{
 }
 .section-transparent{
     color: var(--primary-color);
-    max-width: 600px;
+    max-width: 100%;
     margin: 0.5rem auto;
     border-radius: 0.5rem;
     padding: 2rem 1rem;
+}
+.section-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .sub-heading-one{
     color: var(--primary-color);
@@ -188,21 +196,23 @@ hr{
 
 .footer{
     text-align:center;
-    max-height: 10px;
+    color: var(--primary-color);
 }
 
 .footer ul{
-    position: relative;
-    bottom: 15vh;
-    padding-inline-start: 0px;  
+    padding-inline-start: 0;
+    margin: auto;
 }
 .footer a{
     text-decoration: none;
+    margin: 5px;
 }
 .footer-header {
-    position: relative;
-    bottom: 15vh;
     font-weight: bold;
-    font-size: larger;
-    color: var(--background);
+    font-size: 1.2rem;
+    margin: 10px auto;
+    color: var(--primary-color);
+    border-top: 1px solid var(--primary-color);
+    max-width: 150px;
+    padding: 5px;
 }

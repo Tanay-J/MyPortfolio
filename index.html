@@ -15,7 +15,7 @@
         </div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-inline">
-               <a class="link link-active " href="/">home</a>
+               <a class="link link-active" href="/">home</a>
             </li>
             <li class="list-inline">
                 <a class="link" href="projects.html">projects</a>
@@ -28,7 +28,7 @@
     </nav>   
 
     <!--header-->
-     <header class="hero">
+     <header class="hero container">
         <img class="hero-img" src="images/header.svg">
         <div class="hero-text">
             <h1 class="container-center hero-heading">Tanay Joshi</h1>
@@ -45,34 +45,27 @@
         <div class="container container-center">
             <h1 class="sub-heading-one " style="text-align: left;">About me</h1>
             <hr>
-            <table>
-            <tr>
-                <td><img class="hero-img-section" src="images/about me.svg"></td>
-                <td>
-                    
-                    <p class="text-para">Hi, I am Tanay, an engineering graduate and an avid learner. 
-                        Currently, I am exploring the world of web development. 
-                        I'm familiar with HTML5, CSS3, Git, JavaScript, and Web Hosting
-                    </p>
-                </td>
-            </tr>
-        </table> </div>
+            <div class="section-grid">
+                <img class="hero-img-section" src="images/about me.svg">
+                <p class="text-para">Hi, I am Tanay, an engineering graduate and an avid learner. 
+                    Currently, I am exploring the world of web development. 
+                    I'm familiar with HTML5, CSS3, Git, JavaScript, and Web Hosting
+                </p>
+            </div>
+        </div>
     </section>
     
     <section class="section">
         <div class="container container-center">
             <h1 class="sub-heading-one" style="text-align: left;">Projects</h1>
             <hr>
-            <table>
-                <tr>
-                    <td>
-                        
-                        <p class="text-para">Do have a look at my work because <strike>actions</strike> projects speak louder than words</p>
-                        <a class=" link link-primary" href="projects.html">see projects</a>
-                    </td>
-                    <td><img class="hero-img-section" src="images/projects.svg"></td>
-                </tr>
-            </table>
+            <div class="section-grid">
+                <p class="text-para">Do have a look at my work because <strike>actions</strike> projects speak louder than words
+                    <a class=" link link-primary" style="display: block;max-width: 120px;margin-top: 10px;" href="projects.html">see projects</a> 
+                </p>
+                <img class="hero-img-section" src="images/projects.svg">
+                
+            </div>
         </div>
     </section>
     
@@ -80,33 +73,27 @@
         <div class="container container-center">
             <h1 class="sub-heading-one " style="text-align: left;">Blogs</h1>
             <hr>
-            <table>
-                <tr>
-                    <td><img class="hero-img-section" src="images/blogs.svg"></td>
-                    <td>  
-                        <p class="text-para">Thoughts are all scattered, writing orchestrates them!</p>
-                        <a class="link link-secondary" href="blogs.html">read blogs</a>
-                    </td>  
-                   
-                </tr>
-            </table>
-           
+            <div class="section-grid">
+                <img class="hero-img-section" src="images/blogs.svg">
+                <p class="text-para">Thoughts are all scattered, writing orchestrates them!
+                    <a class="link link-secondary" style="display: block;max-width: 105px;margin-top: 10px;" href="blogs.html">read blogs</a>
+                </p>
+                
+                
+            </div>
        
         </div>
     </section>
 
-
     <!--footer-->
     <footer class="footer">
-        <img src="/images/wave2.svg"">
+        <!-- <img src="/images/wave2.svg"> -->
         <div class="footer-header">Let's connect</div>
         <ul>
             <li class="list-inline"><a href="https://github.com/Tanay-J?tab=repositories"><img src="/images/github.svg"></a></li>
             <li class="list-inline"><a href="https://www.linkedin.com/in/tanay-joshi-023bb536/"><img src="/images/linkedin.svg"></a></li>
             <li class="list-inline"><a href="https://twitter.com/tanayj9"><img src="/images/twitter.svg"></a></li>
-        </ul>
-        
-        
+        </ul>        
     </footer>
 
 
